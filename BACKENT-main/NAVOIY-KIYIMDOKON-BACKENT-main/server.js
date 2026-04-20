@@ -7,14 +7,14 @@ import { errorHandler, notFoundHandler } from "./middleware/errorHandler.js";
 import mainRoutes from "./routes/mainRoutes.js";
 import { ensureDefaultAdmin } from "./utils/bootstrap.js";
 
-dotenv.config();
+dotenv.config({ override: true });
 
 const app = express();
 const port = Number(process.env.PORT || 4100);
 const host = process.env.HOST || "0.0.0.0";
 const mongoUri =
   process.env.MONGO_URI ||
-  "mongodb://127.0.0.1:27017/navoiy_kiyim_dokon";
+  "mongodb://127.0.0.1:27017/navoiy_kiyim_dokon_clean";
 const corsOrigins = String(process.env.CORS_ORIGIN || "")
   .split(",")
   .map((origin) => origin.trim())
