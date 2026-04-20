@@ -1,4 +1,4 @@
-# Backend Sklad
+# NAVOIY-KIYIMDOKON-BACKEND
 
 Bu papka sklad uchun alohida backend.
 

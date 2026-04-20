@@ -2,8 +2,8 @@
 
 Monorepo:
 
-- `FRONTEND-main/ATA-WAY-FRONTEND-main` - frontend
-- `BACKENT-main/ATA-WAY-BACKENT-main` - backend
+- `FRONTEND-main/NAVOIY-KIYIMDOKON-FRONTEND-main` - frontend
+- `BACKENT-main/NAVOIY-KIYIMDOKON-BACKENT-main` - backend
 
 ## Qisqa
 

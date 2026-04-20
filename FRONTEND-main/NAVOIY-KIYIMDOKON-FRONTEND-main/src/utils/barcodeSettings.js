@@ -12,7 +12,7 @@ export const BARCODE_PRINT_DEFAULTS = {
   showCategory: false,
 };
 
-const STORAGE_KEY = "ataway_barcode_print_settings";
+const STORAGE_KEY = "navoiy_kiyim_dokon_barcode_print_settings";
 
 export function getBarcodePrintSettings() {
   if (typeof window === "undefined") return BARCODE_PRINT_DEFAULTS;
