@@ -889,18 +889,16 @@ a {
   align-items: flex-start;
   justify-content: flex-start;
   padding: 10vh 24px 24px 14%;
-  background:
-    linear-gradient(180deg, rgba(14, 23, 45, 0.38), rgba(14, 23, 45, 0.62)),
-    url("/login-bg.png") center/cover no-repeat;
+  background: #0f1b33;
 }
 
 .login-card {
   width: min(460px, 100%);
   padding: 38px 34px;
   border-radius: 28px;
-  border: 1px solid rgba(255, 206, 158, 0.34);
-  background: linear-gradient(180deg, rgba(255, 156, 84, 0.26), rgba(170, 74, 28, 0.34));
-  box-shadow: 0 24px 70px rgba(74, 26, 7, 0.34);
+  border: 1px solid rgba(133, 165, 227, 0.2);
+  background: rgba(20, 33, 61, 0.96);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.26);
   backdrop-filter: blur(14px);
   display: grid;
   gap: 18px;
@@ -909,29 +907,29 @@ a {
 .login-card label {
   display: grid;
   gap: 8px;
-  color: #fff1e2;
+  color: #eef4ff;
   font-weight: 500;
 }
 
 .login-card input {
   width: 100%;
   height: 54px;
-  border: 1px solid rgba(255, 214, 176, 0.18);
+  border: 1px solid rgba(133, 165, 227, 0.22);
   border-radius: 16px;
-  background: rgba(73, 29, 13, 0.28);
-  color: #fffaf5;
+  background: rgba(15, 27, 51, 0.72);
+  color: #eef4ff;
   padding: 14px 16px;
   outline: none;
   font-size: 1rem;
 }
 
 .login-card input::placeholder {
-  color: rgba(255, 232, 208, 0.5);
+  color: rgba(159, 180, 220, 0.7);
 }
 
 .login-card input:focus {
-  border-color: rgba(255, 196, 122, 0.72);
-  box-shadow: 0 0 0 4px rgba(255, 164, 79, 0.18);
+  border-color: rgba(45, 165, 255, 0.65);
+  box-shadow: 0 0 0 4px rgba(45, 165, 255, 0.14);
 }
 
 .login-head {
@@ -945,9 +943,9 @@ a {
   width: fit-content;
   padding: 8px 14px;
   border-radius: 999px;
-  background: rgba(255, 232, 205, 0.18);
-  border: 1px solid rgba(255, 216, 170, 0.28);
-  color: #fff0dd;
+  background: rgba(45, 165, 255, 0.12);
+  border: 1px solid rgba(45, 165, 255, 0.22);
+  color: #dbefff;
   font-size: 0.92rem;
   letter-spacing: 0.02em;
 }
