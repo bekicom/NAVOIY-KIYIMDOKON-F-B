@@ -14,6 +14,13 @@ Output directory:
 Environment variables:
 - `VITE_API_BASE_URL=https://your-backend-domain.com/api`
 
+## Vercel
+
+- Root directory: `FRONTEND-main/NAVOIY-KIYIMDOKON-FRONTEND-main`
+- Build command: `npm run build`
+- Output directory: `dist`
+- Add env: `VITE_API_BASE_URL=https://navoiykiyimdokon.ataway.uz/api`
+
 ## Local run
 
 ```powershell
