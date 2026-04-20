@@ -13,7 +13,8 @@ const app = express();
 const port = Number(process.env.PORT || 4100);
 const host = process.env.HOST || "0.0.0.0";
 const mongoUri =
-  process.env.MONGO_URI || "mongodb://127.0.0.1:27017/kiyim_dokon_sklad";
+  process.env.MONGO_URI ||
+  "mongodb://127.0.0.1:27017/navoiy_kiyim_dokon";
 const corsOrigins = String(process.env.CORS_ORIGIN || "")
   .split(",")
   .map((origin) => origin.trim())
